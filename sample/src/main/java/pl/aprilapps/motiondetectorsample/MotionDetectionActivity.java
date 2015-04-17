@@ -1,16 +1,4 @@
-package com.jwetherell.motiondetection;
-
-import java.io.File;
-import java.io.FileOutputStream;
-import java.util.concurrent.atomic.AtomicBoolean;
-
-import com.jwetherell.motiondetection.data.GlobalData;
-import com.jwetherell.motiondetection.data.Preferences;
-import com.jwetherell.motiondetection.detection.AggregateLumaMotionDetection;
-import com.jwetherell.motiondetection.detection.IMotionDetection;
-import com.jwetherell.motiondetection.detection.LumaMotionDetection;
-import com.jwetherell.motiondetection.detection.RgbMotionDetection;
-import com.jwetherell.motiondetection.image.ImageProcessing;
+package pl.aprilapps.motiondetectorsample;
 
 import android.content.res.Configuration;
 import android.graphics.Bitmap;
@@ -23,6 +11,18 @@ import android.os.Looper;
 import android.util.Log;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
+
+import com.jwetherell.motiondetection.data.GlobalData;
+import com.jwetherell.motiondetection.data.Preferences;
+import com.jwetherell.motiondetection.detection.AggregateLumaMotionDetection;
+import com.jwetherell.motiondetection.detection.IMotionDetection;
+import com.jwetherell.motiondetection.detection.LumaMotionDetection;
+import com.jwetherell.motiondetection.detection.RgbMotionDetection;
+import com.jwetherell.motiondetection.image.ImageProcessing;
+
+import java.io.File;
+import java.io.FileOutputStream;
+import java.util.concurrent.atomic.AtomicBoolean;
 
 
 /**
@@ -50,7 +50,7 @@ public class MotionDetectionActivity extends SensorsActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
+        setContentView(R.layout.activity_main);
 
         preview = (SurfaceView) findViewById(R.id.preview);
         previewHolder = preview.getHolder();
