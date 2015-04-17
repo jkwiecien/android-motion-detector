@@ -43,7 +43,7 @@ repositories {
 }
     
 dependencies {
-    compile 'com.github.jkwiecien.android-motion-detector:library:1.0.3'
+    compile 'com.github.jkwiecien:android-motion-detector1.0.1'
 
 }
 ```
