@@ -1,0 +1,102 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .DS_Store
+* .gitignore
+* LICENSE
+* README.md
+* create_javadocs.sh
+* default.properties
+* javadocs/
+* javadocs/allclasses-frame.html
+* javadocs/allclasses-noframe.html
+* javadocs/com/
+* javadocs/com/jwetherell/
+* javadocs/com/jwetherell/motion_detection/
+* javadocs/com/jwetherell/motion_detection/GlobalData.html
+* javadocs/com/jwetherell/motion_detection/MotionDetectionActivity.html
+* javadocs/com/jwetherell/motion_detection/Preferences.html
+* javadocs/com/jwetherell/motion_detection/R.attr.html
+* javadocs/com/jwetherell/motion_detection/R.drawable.html
+* javadocs/com/jwetherell/motion_detection/R.html
+* javadocs/com/jwetherell/motion_detection/R.id.html
+* javadocs/com/jwetherell/motion_detection/R.layout.html
+* javadocs/com/jwetherell/motion_detection/R.string.html
+* javadocs/com/jwetherell/motion_detection/SensorsActivity.html
+* javadocs/com/jwetherell/motion_detection/data/
+* javadocs/com/jwetherell/motion_detection/data/GlobalData.html
+* javadocs/com/jwetherell/motion_detection/data/Preferences.html
+* javadocs/com/jwetherell/motion_detection/data/package-frame.html
+* javadocs/com/jwetherell/motion_detection/data/package-summary.html
+* javadocs/com/jwetherell/motion_detection/data/package-tree.html
+* javadocs/com/jwetherell/motion_detection/data2/
+* javadocs/com/jwetherell/motion_detection/data2/GlobalData.html
+* javadocs/com/jwetherell/motion_detection/data2/Preferences.html
+* javadocs/com/jwetherell/motion_detection/data2/package-frame.html
+* javadocs/com/jwetherell/motion_detection/data2/package-summary.html
+* javadocs/com/jwetherell/motion_detection/data2/package-tree.html
+* javadocs/com/jwetherell/motion_detection/detection/
+* javadocs/com/jwetherell/motion_detection/detection/AggregateLumaMotionDetection.html
+* javadocs/com/jwetherell/motion_detection/detection/Comparer.html
+* javadocs/com/jwetherell/motion_detection/detection/IMotionDetection.html
+* javadocs/com/jwetherell/motion_detection/detection/LumaMotionDetection.html
+* javadocs/com/jwetherell/motion_detection/detection/RgbMotionDetection.html
+* javadocs/com/jwetherell/motion_detection/detection/State.html
+* javadocs/com/jwetherell/motion_detection/detection/package-frame.html
+* javadocs/com/jwetherell/motion_detection/detection/package-summary.html
+* javadocs/com/jwetherell/motion_detection/detection/package-tree.html
+* javadocs/com/jwetherell/motion_detection/image/
+* javadocs/com/jwetherell/motion_detection/image/ImageProcessing.html
+* javadocs/com/jwetherell/motion_detection/image/package-frame.html
+* javadocs/com/jwetherell/motion_detection/image/package-summary.html
+* javadocs/com/jwetherell/motion_detection/image/package-tree.html
+* javadocs/com/jwetherell/motion_detection/package-frame.html
+* javadocs/com/jwetherell/motion_detection/package-summary.html
+* javadocs/com/jwetherell/motion_detection/package-tree.html
+* javadocs/com/jwetherell/motion_detection/preferences/
+* javadocs/com/jwetherell/motion_detection/preferences/Preferences.html
+* javadocs/com/jwetherell/motion_detection/preferences/package-frame.html
+* javadocs/com/jwetherell/motion_detection/preferences/package-summary.html
+* javadocs/com/jwetherell/motion_detection/preferences/package-tree.html
+* javadocs/constant-values.html
+* javadocs/deprecated-list.html
+* javadocs/help-doc.html
+* javadocs/index-all.html
+* javadocs/index.html
+* javadocs/overview-frame.html
+* javadocs/overview-summary.html
+* javadocs/overview-tree.html
+* javadocs/package-list
+* javadocs/resources/
+* javadocs/resources/inherit.gif
+* javadocs/stylesheet.css
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
