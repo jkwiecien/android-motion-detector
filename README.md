@@ -1,4 +1,4 @@
-# android-motion-detection
+# android-motion-detector
 This is Gradle version of original android-motion-detection library by Justin Wetherell
 
 It's used to detect motion by comparing two pictures.
